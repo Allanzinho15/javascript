@@ -11,10 +11,11 @@
         <input type="button" value="grau da obesidade" onclick="clickar()">
         <div id="obs">grau da obesidade....</div>
         <script>
+
             function clickar(){
                 let peso1 = window.document.getElementById("ob1")
                 let obesi = window.document.getElementById("obs")
-                let resul = Number(ob1.value)
+                let resul = Number(peso1.value)
                 obesi.innerHTML = (`grau da obesidade.... `)
                 if(resul <= 55){
                     obs.innerHTML = `esta com desnutrição` 
@@ -28,6 +29,7 @@
                     obs.innerHTML = `esta com obesidade grau II`
                 }
             }
+            
         </script>
     </div>
 </body>

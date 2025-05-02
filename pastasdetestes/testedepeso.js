@@ -1,6 +1,6 @@
-let peso = 10
+let peso = 66
 console.log(`seu peso atual é de ${peso}kg`)
-if(peso <= 65){
+if(peso <= 66){
     console.log(`você esta com disnutrição`)    
 }else if(peso <= 75){
     console.log(`voçê esta com peso ideal `)
